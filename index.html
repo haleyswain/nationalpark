@@ -14,8 +14,8 @@
     <form id = "quiz">
 
     <div class="form-group">
-      <label for="sport">Pick a sport</label>
-      <select id="sport" class="form-control">
+      <h5> Pick your favorite sport!</h5>
+        <select class ="form-control" id="sport">
         <option value = "Tennis">Tennis</option>
         <option value = "Basketball">Basketball</option>
         <option value = "Football">Football</option>
@@ -23,8 +23,8 @@
     </div>
 
     <div class = "form-group">
-      <label for = "food">What's your favorite food?</label>
-      <select id = "food" class = "form-control">
+      <h5> Whats your favorite food?</h5>
+      <select class ="form-control" id="food">
         <option value = "Grilled Cheese">Grilled Cheese</option>
         <option value = "Pizza">Pizza</option>
         <option value = "Cheesburger">Cheesburger</option>
@@ -32,8 +32,8 @@
     </div>
 
     <div class = "form-group">
-      <label for = "weather"> Whats your favorite weather?</label>
-      <select id = "weather" class = "form-control">
+      <h5> What's your favorite color?</h5>
+      <select class ="form-control" id="color">
         <option value = "Rainy">Rainy</option>
         <option value = "Sunny">Sunny</option>
         <option value = "Winter Wonderland">Winter Wonderland</option>
@@ -41,8 +41,8 @@
     </div>
 
     <div class = "form-group">
-      <label for = "flower"> Pick a flower! </label>
-      <select id = "flower" class = "form-control">
+      <h5>Pick your favorite color!</h5>
+      <select class ="form-control" id="flower">
         <option value = "Rose">Rose</option>
         <option value = "Sunflower">Sunflower</option>
         <option value = "Daffodil">Daffodil</option>
@@ -50,17 +50,19 @@
     </div>
 
     <div class = "form-group">
-      <label for ="house"> What's your dream house? </label>
-      <select id = "house" class = "form-control">
+    <h5> Whats your ideal home?</h5>
+      <select class ="form-control" id="house">
         <option value = "Houseboat">Houseboat</option>
         <option value = "Lake House">Lake House</option>
         <option value = "Cabin in the Woods">Cabin in the Woods</option>
       </select>
     </div>
-      <submit id="button" type="submit" class="btn btn-primary">Plan my Trip!</submit>
+      <button type="submit" class="btn">Plan my Trip!</button>
     </form>
+    <div id = "output">
     </div>
-
+      <h2> On your next national park adventure, you should go to <span id="park"></span></h2>
+  </div>
 
   </body>
 </html>
