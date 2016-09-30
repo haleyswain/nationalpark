@@ -40,7 +40,6 @@ var park = function(trip, animal){
   $(document).ready(function() {
     $("form#quiz").submit(function(event) {
       event.preventDefault();
-          alert("hi")
       var trip = $('select#trip').val();
       var food = $('select#food').val();
       var sport = $('select#sport').val();
@@ -52,14 +51,14 @@ var park = function(trip, animal){
 
 
     if (result === "glacier"){
-      $("#destination").text("Glacier")
-      $("#result").show();
+      $("#destination").text(" Glacier National Park!")
+      $("#answer").show();
     } else if (result === "olympic") {
-        $("#destination").text("Olympic")
-        $("#result").show();
+        $("#destination").text(" Olympic National Park!")
+        $("#answer").show();
     } else if (result === "yellowstone"){
-        $("#destination").text("Yellowstone")
-        $("#result").show()
+        $("#destination").text(" Yellowstone National Park!")
+        $("#answer").show()
     }
 
 
