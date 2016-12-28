@@ -1,3 +1,21 @@
 #answer {
   display: none;
 }
+
+body {
+  background-image: url('../img/mountain.jpeg');
+  text-align: center;
+  padding-bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 10%;
+}
+
+h1, h3 {
+  color: black;
+}
+
+.container {
+  background-color: white;
+  padding-bottom: 10%;
+}

@@ -28,7 +28,9 @@ _In the event of any problems, please contact haley at haleyswain@gmail.com. Con
 * CSS
 * Bootstrap
 * JavaScript
-* Jquery
+* JQuery
+* Materialize
+
 
 ### License
 
